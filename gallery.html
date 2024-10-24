@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheet/fonts/icon -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/97c32ae881.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Title -->
+    <title>Ichisansfw | Home</title>
+  </head>
+
+  <body onmousedown="return false" onselectstart="return false">
+    <div class="background-plate"></div>
+
+    <header class="mx-auto font-bold text-xl">
+      <!-- Navigation Bar and Title -->
+      <div
+        class="mx-auto max-w-5xl px-4 flex max-sm:flex-col py-8 justify-center"
+      >
+        <div class="splitted w-full font-bold text-4xl max-md:mb-16">
+          <h1 class="shaky"><b>Ichisansfw</b></h1>
+          <h1 class="shaky"><b>Ichisansfw</b></h1>
+          <h1 class="shaky"><b>Ichisansfw</b></h1>
+        </div>
+        <div
+          class="flex gap-1 font-semibold items-center text-white max-sm:flex-wrap"
+        >
+          <a
+            class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 hover:-translate-y-2 duration-200"
+            href="social.html"
+            ><i class="fa-solid fa-earth-asia"></i>
+            <span class="max-md:hidden">Socials</span></a
+          >
+          <a
+            class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 hover:-translate-y-2 duration-200"
+            href="project.html"
+            ><i class="fa-solid fa-keyboard"></i>
+            <span class="max-md:hidden">Projects</span></a
+          >
+          <a
+            class="n-active block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 hover:-translate-y-2 duration-200"
+            href="#"
+            ><i class="fa-solid fa-palette"></i>
+            <span class="max-md:hidden">Gallery</span></a
+          >
+          <a
+            class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:text-blue-950 hover:-translate-y-2 duration-200"
+            href="index.html"
+            ><i class="fa-solid fa-house"></i>
+            <span class="max-md:hidden"> home</span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Profile Container -->
+
+    <div
+      class="md:items-start px-4 max-md:flex-col gap-2 flex mx-auto max-w-5xl"
+    >
+      <div
+        class="md:sticky top-4 flex-shrink-0 md:w-1/5 border-dashed bg-static border-2 border-white border-opacity-75 p-8 hover:border-solid duration-300 hover:border-opacity-100 max-md:flex max-md:items-start max-md:gap-4 noise"
+      >
+        <img
+          src="assets/img/playful_profile.png"
+          class="rounded-xl aspect-square w-full max-md:max-w-32"
+          alt=""
+        />
+        <div class="text-white w-full md:mt-3">
+          <h2 class="text-xl font-bold">Ichisan</h2>
+          <p class="mb-3 mt-3 text-sm">
+            <i class="fa-solid fa-code"></i> Developer
+          </p>
+
+          <p class="text-white">Level: <b>17</b></p>
+          <div class="w-full h-4 bg-slate-500 progress-bar">
+            <div class="bg-cyan-300 h-full w-4/5"></div>
+          </div>
+        </div>
+        <div class="text-white w-full md:mt-9 leading-8">
+          <p>Location:</p>
+          <p><b>Indonesia</b></p>
+          <p>Pronouns:</p>
+          <p><b>He/Him</b></p>
+          <p>Birthday:</p>
+          <p><b>6 Nov</b></p>
+        </div>
+      </div>
+
+      <!-- Information -->
+      <div
+        class="bg-static noise w-full border-dashed border-2 border-white border-opacity-75 p-8 hover:border-solid duration-300 hover:border-opacity-100 relative"
+      >
+        <div class="text-white text-sm">
+          <!-- Info -->
+          <h2 class="text-2xl mb-4">
+            <i class="fa-solid fa-palette"></i> <b>Gallery</b>
+          </h2>
+          <li>
+            Welcome to my gallery! this is where you can see some of my finished
+            artworks! You can also checkout my Instagram or Twitter for more
+            silly cute drawings :3
+          </li>
+          <p class="pt-3 text-gray-400">Click on the image to inspect</p>
+        </div>
+
+        <!-- Gallery -->
+        <div id="gallery" class="grid grid-cols-3 mt-8"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Ichisansfw. All right reserved</p>
+    </footer>
+
+    <!-- javaScript -->
+    <script src="assets/js/wave.js"></script>
+    <script src="assets/js/parallaxplate.js"></script>
+    <script src="assets/js/collapse.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/playsound.js"></script>
+  </body>
+</html>

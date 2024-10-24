@@ -1,0 +1,37 @@
+@media screen and (max-width: 1724px) {
+  .fold-wrapper {
+    display: block;
+  }
+  .fold {
+    width: 100% !important;
+  }
+
+  .content img {
+    width: 270px !important;
+    height: 270px !important;
+    padding: 10px !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .fold-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .fold {
+    width: 100%;
+  }
+
+  .content img {
+    width: 250px !important;
+    height: 250px !important;
+    padding: 7px !important;
+  }
+
+  .home-container-custom {
+    align-items: start;
+    display: flex;
+    margin-top: 50px;
+    /* margin-left: 25%; */
+    height: auto;
+  }
+}
