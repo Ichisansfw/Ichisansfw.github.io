@@ -15,5 +15,5 @@ fetch("https://api.kyuiki.com/api/attachment/1280503314471059526?has=1").then(
       img.src = photo.proxy;
       galleryPreview.appendChild(img);
     });
-  }
+  },
 );

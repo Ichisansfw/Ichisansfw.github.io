@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Meta -->
@@ -27,7 +27,7 @@
     <title>Ichisansfw | Projects</title>
   </head>
 
-  <body onmousedown="return false" onselectstart="return false">
+  <body onmousedown="return false;" onselectstart="return false">
     <div class="background-plate"></div>
 
     <header class="mx-auto font-bold text-xl">
@@ -43,6 +43,12 @@
         <div
           class="flex gap-1 font-semibold items-center text-white max-sm:flex-wrap"
         >
+        <a
+            class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:text-blue-950 hover:-translate-y-2 duration-200"
+            href="index.html"
+            ><i class="fa-solid fa-house"></i>
+            <span class="max-md:hidden"> home</span></a
+          >
           <a
             class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 hover:-translate-y-2 duration-200"
             href="social.html"
@@ -61,11 +67,12 @@
             ><i class="fa-solid fa-palette"></i>
             <span class="max-md:hidden">Gallery</span></a
           >
+          
           <a
             class="block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:text-blue-950 hover:-translate-y-2 duration-200"
-            href="index.html"
-            ><i class="fa-solid fa-house"></i>
-            <span class="max-md:hidden"> home</span></a
+            href="commissions.html"
+            ><i class="fa-solid fa-receipt"></i>
+            <span class="max-md:hidden"> Commissions</span></a
           >
         </div>
       </div>
@@ -80,7 +87,7 @@
         class="md:sticky top-4 flex-shrink-0 md:w-1/5 border-dashed bg-static border-2 border-white border-opacity-75 p-8 hover:border-solid duration-300 hover:border-opacity-100 max-md:flex max-md:items-start max-md:gap-4 noise"
       >
         <img
-          src="assets/img/playful_profile.png"
+          src="assets/img/ichisansfw_pfp.png"
           class="rounded-xl aspect-square w-full max-md:max-w-32"
           alt=""
         />
@@ -90,9 +97,9 @@
             <i class="fa-solid fa-code"></i> Developer
           </p>
 
-          <p class="text-white">Level: <b>18</b></p>
+          <p class="text-white">Level: <b>19</b></p>
           <div class="w-full h-4 bg-slate-500 progress-bar">
-            <div class="bg-cyan-300 h-full w-0"></div>
+            <div class="bg-cyan-300 h-full w-6"></div>
           </div>
         </div>
         <div class="text-white w-full md:mt-9 leading-8">
@@ -157,44 +164,86 @@
         >
           <div class="content-invisible" data-page="webtoon">
             <div class="grid grid-cols-1">
-              <div
-                class="relative overflow-hidden mt-6 w-full border-dashed border-2 border-opacity-75 border-white bg-white bg-opacity-10 text-white hover:border-solid hover:border-opacity-100"
-              >
-                <img
-                  class="h-full w-full object-cover absolute top-0 left-0"
-                  src="assets/img/webtoon/decaying.png"
-                  alt=""
-                />
-                <div class="p-4 relative">
-                  <h1 class="font-bold text-xl">
-                    <i class="fa-solid fa-ghost pr-2"></i>Decaying Lights
-                  </h1>
-                  <p class="text-sm pt-2">
-                    Dive into the darkness of insanity where almost everyone is
-                    losing their minds. Travel into the depth and find a way to
-                    stop these living nightmares. When the time comes, there
-                    will be no choice but to overcome.
-                  </p>
+              <!-- Decaying Lights -->
 
-                  <a
-                    class="font-bold mt-3 inline-block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 duration-200"
-                    href="https://www.webtoons.com/en/canvas/decaying-lights/list?title_no=899473"
-                    ><i class="fa-solid fa-book pr-1"></i>
-                    <span class="max-md:hidden">Read</span></a
-                  >
-                  <!--  -->
-                  <div class="flex mt-2">
-                    <p class="text-white text-xs pr-3 mt-1.5">Progress:</p>
-                    <div class="mt-2.5 w-full h-2 bg-slate-500">
-                      <div class="bg-cyan-300 h-full" style="width: 2%"></div>
+              <div
+                class="relative overflow-hidden mt-6 w-full border-solid border-2 border-white bg-white bg-opacity-10 text-white"
+              >
+                <div>
+                  <img
+                    class="h-full w-full object-cover absolute top-0 left-0"
+                    src="assets/img/webtoon/decaying.png"
+                    alt=""
+                  />
+                  <div class="p-4 relative">
+                    <h1 class="font-bold text-xl">
+                      <i class="fa-solid fa-ghost pr-2"></i>Decaying Lights
+                    </h1>
+                    <p class="text-sm pt-2">
+                      Dive into the darkness of insanity where almost everyone
+                      is losing their minds. Travel into the depth and find a
+                      way to stop these living nightmares. When the time comes,
+                      there will be no choice but to overcome.
+                    </p>
+
+                    <a
+                      class="font-bold mt-3 inline-block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 duration-200"
+                      href="https://www.webtoons.com/en/canvas/decaying-lights/list?title_no=899473"
+                      ><i class="fa-solid fa-book pr-1"></i>
+                      <span class="max-md:hidden">Read</span></a
+                    >
+
+                    <!--  -->
+                    <div class="flex mt-2">
+                      <p class="text-white text-xs pr-3 mt-1.5">Progress:</p>
+                      <div class="mt-2.5 w-full h-2 bg-slate-500">
+                        <div class="bg-cyan-300 h-full" style="width: 2%"></div>
+                      </div>
                     </div>
                   </div>
-                  <!--  -->
                 </div>
               </div>
+              <!-- Psychopawth -->
+              <div
+                class="relative overflow-hidden mt-6 w-full border-solid border-2 border-white bg-white bg-opacity-10 text-white"
+              >
+                <div>
+                  <img
+                    class="h-full w-full object-cover absolute top-0 left-0"
+                    src="assets/img/webtoon/psychopawth1.png"
+                    alt=""
+                  />
+                  <div class="p-4 relative">
+                    <h1 class="font-bold text-xl">
+                      <i class="fa-solid fa-brain pr-2"></i></i>Psychopawth: Color
+                      Pawlette
+                    </h1>
+                    <p class="text-sm pt-2">
+                      Psychopawth - Color Pawlette follows the adventure of five
+                      elementary schoolers in a very large city, where their
+                      world isn't as colorful as it should be for their age.
+                      It's a gloomy and miserable world where your perspective
+                      on each other is constantly manipulated.
+                    </p>
+
+                    <a
+                      class="font-bold mt-3 inline-block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 duration-200"
+                      ><i class="fa-solid fa-book pr-1"></i>
+                      <span class="max-md:hidden">Coming Soon</span></a
+                    >
+                    <div class="flex mt-2">
+                      <p class="text-white text-xs pr-3 mt-1.5">Progress:</p>
+                      <div class="mt-2.5 w-full h-2 bg-slate-500">
+                        <div class="bg-cyan-300 h-full" style="width: 15%"></div>
+                        <!-- Psychopawth -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
             </div>
           </div>
-
           <!-- Gamedev -->
 
           <div
@@ -204,7 +253,7 @@
           >
             <div class="grid grid-cols-1">
               <div
-                class="relative overflow-hidden mt-6 w-full border-dashed border-2 border-opacity-75 border-white bg-white bg-opacity-10 text-white hover:border-solid hover:border-opacity-100"
+                class="relative overflow-hidden mt-6 w-full border-solid border-2 border-white bg-white bg-opacity-10 text-white"
               >
                 <img
                   class="h-full w-full object-cover absolute top-0 left-0"
@@ -216,7 +265,6 @@
                     <i class="fa-solid fa-ghost pr-2"></i>Safe Within
                   </h1>
                   <p class="text-sm pt-2">
-                    Welcome to Safe Within. Which is an RPGMAKER Horror game.
                     You are controlling a little Arctic Fox Character named
                     Tweek. He doesn't feel safe in his house every night Can you
                     uncover what is actually happening?
@@ -232,6 +280,38 @@
                     <p class="text-white text-xs pr-3 mt-1.5">Progress:</p>
                     <div class="mt-2.5 w-full h-2 bg-slate-500">
                       <div class="bg-cyan-300 h-full" style="width: 10%"></div>
+                    </div>
+                    <!--  -->
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div
+                class="relative overflow-hidden mt-6 w-full border-solid border-2 border-white bg-white bg-opacity-10 text-white"
+              >
+                <img
+                  class="h-full w-full object-cover absolute top-0 left-0"
+                  src="assets/img/gamedev/getjammed.gif"
+                  alt=""
+                />
+                <div class="p-4 relative">
+                  <h1 class="font-bold text-xl">
+                    <i class="fa-solid fa-ghost pr-2"></i>Get Jammed (DEMO)
+                  </h1>
+                  <p class="text-sm pt-2">
+                    You work as an engineer in a jam factory, but something feels off in this place. Explore a 12 story deep factory with a very dark and terrifying secret hidden underneath.
+                  </p>
+                  <a
+                    class="font-bold mt-3 inline-block border border-white border-opacity-75 border-b-4 whitespace-nowrap px-4 py-3 hover:bg-cyan-300 bg-white bg-opacity-10 hover:border-cyan-300 hover:border-b-blue-400 hover:border-opacity-100 hover:text-blue-950 duration-200"
+                    href="https://joentnt.itch.io/get-jammed/devlog/867782/get-jammed-submitted-to-bgdjam2025"
+                    ><i class="fa-solid fa-list pr-2"></i>
+                    <span class="max-md:hidden">Download</span></a
+                  >
+                  <!--  -->
+                  <div class="flex mt-2">
+                    <p class="text-white text-xs pr-3 mt-1.5">Progress:</p>
+                    <div class="mt-2.5 w-full h-2 bg-slate-500">
+                      <div class="bg-cyan-300 h-full" style="width: 30%"></div>
                     </div>
                     <!--  -->
                   </div>
