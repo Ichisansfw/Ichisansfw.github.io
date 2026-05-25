@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "ichisansfw",
-        "email": "piratebark@gmail.com"
+        "email": "[piratebark@gmail.com]"
     },
     "records": {
-        "CNAME": "ichisansfw.github.io"
+        "A": ["75.2.60.5"]
     }
 }
